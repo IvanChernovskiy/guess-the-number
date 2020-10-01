@@ -5,6 +5,7 @@ let unknownNumber = Math.floor(Math.random() * 100);
 const output = document.querySelector("#output");
 const form = document.querySelector("#form");
 const input = document.querySelector("#form input");
+const button = document.querySelector("#button");
 
 input.focus();
 
@@ -62,3 +63,4 @@ const clearOutput = () => {
 };
 
 form.addEventListener("submit", handleSubmit);
+button.addEventListener("click", handleSubmit);
