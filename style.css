@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  font-family: "Consolas", monospace, sans-serif;
+  color: rgba(0, 255, 0, 1);
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#output {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#output .user {
+  color: rgba(0, 255, 0, 1);
+  font-weight: bold;
+}
+
+#form {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+#form input {
+  display: block;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: #0f0;
+  padding: 1rem 0.5rem;
+  font-size: inherit;
+  font-family: "Consolas", monospace;
+  position: relative;
+}
+
+#form::before {
+  content: "> ";
+}
