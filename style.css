@@ -20,7 +20,8 @@ body {
 #form {
   display: flex;
   align-items: center;
-  font-size: 1.5rem;
+  height: 60px;
+  font-size: 24px;
 }
 
 #form input {
@@ -37,4 +38,10 @@ body {
 
 #form::before {
   content: "> ";
+}
+
+@media (min-width: 420px) {
+  #form {
+    font-size: 32px;
+  }
 }
